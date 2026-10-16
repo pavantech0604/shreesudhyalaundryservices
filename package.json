@@ -1,0 +1,41 @@
+{
+  "name": "shreesudhyalaundryservices",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev --webpack --hostname 0.0.0.0 --port 3001",
+    "build": "next build --webpack",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "preview": "node scripts/preview.mjs",
+    "test": "node scripts/verify-cycle.mjs && node scripts/verify-layout.mjs && node scripts/verify-export.mjs",
+    "icons": "node scripts/generate-brand-icons.mjs",
+    "check": "npm run lint && npm run build && npm run typecheck && npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Premium informational website for Shree Sudhya Laundry Services",
+  "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "lucide-react": "^1.58.0",
+    "next": "^16.4.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "three": "0.182.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@types/node": "26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "0.182.0",
+    "eslint": "^9.39.5",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.71.2"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}

@@ -1,0 +1,10 @@
+.screen{min-height:100svh;display:grid;place-items:center;padding:24px;background:#f8f7f4;color:#072b4b;font-family:Arial,sans-serif;box-sizing:border-box}
+.card{width:min(100%,540px);text-align:center;background:#faf9f7;border:1px solid #ddd3bd;border-radius:14px;padding:clamp(24px,5vw,48px);box-sizing:border-box}
+.card img{display:block;width:min(100%,260px);height:auto;margin:0 auto 26px}
+.card h1{font-size:clamp(28px,5vw,38px);line-height:1.2;letter-spacing:-1px;margin:0 0 16px}
+.card p{font-size:16px;line-height:1.7;color:#425e70;margin:0}
+.actions{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-top:24px}
+.actions button,.actions a{font:600 14px Arial,sans-serif;min-height:44px;display:flex;align-items:center;justify-content:center;padding:12px 20px;border:1px solid #072b4b;border-radius:4px;box-sizing:border-box;text-decoration:none;cursor:pointer}
+.actions button{background:#072b4b;color:#fff}
+.actions a{color:#072b4b;background:transparent}
+.actions :focus-visible{outline:3px solid #1393d0;outline-offset:4px}
